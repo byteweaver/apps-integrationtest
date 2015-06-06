@@ -1,0 +1,12 @@
+*.pyc
+*.swp
+*.swo
+# virtualenv folders
+/bin/
+/include/
+/lib/
+/share/
+/local/
+# other files
+/pip-selfcheck.json
+/.Python
