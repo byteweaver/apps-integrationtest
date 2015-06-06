@@ -8,5 +8,6 @@
 /share/
 /local/
 # other files
+/db.sqlite3
 /pip-selfcheck.json
 /.Python
