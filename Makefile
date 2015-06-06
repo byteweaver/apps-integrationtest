@@ -17,5 +17,6 @@ requirements: virtualenv
 clean:
 	rm -rf lib include bin share local
 
+# taken from http://stackoverflow.com/questions/6244382/how-to-automate-createsuperuser-on-django
 demo-user:
 	echo "from django.contrib.auth.models import User; User.objects.create_superuser('demo', 'demo@byteweaver.org', 'demo')" | ./bin/python manage.py shell
