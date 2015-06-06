@@ -16,3 +16,6 @@ requirements: virtualenv
 
 clean:
 	rm -rf lib include bin share local
+
+demo-user:
+	echo "from django.contrib.auth.models import User; User.objects.create_superuser('demo', 'demo@byteweaver.org', 'demo')" | ./bin/python manage.py shell
