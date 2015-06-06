@@ -29,6 +29,9 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+BYTEWEAVER_APPS = (
+    'posts',
+)
 
 INSTALLED_APPS = (
     'django.contrib.admin',
@@ -37,7 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-)
+) + BYTEWEAVER_APPS
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
