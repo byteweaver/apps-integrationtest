@@ -4,7 +4,6 @@ django-posts
 django-referral
 django-polls
 django-tickets
-django-app-skeleton
 django-eca-catalogue
 django-forums
 django-skrill
