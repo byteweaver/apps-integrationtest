@@ -31,6 +31,18 @@ ALLOWED_HOSTS = []
 # Application definition
 BYTEWEAVER_APPS = (
     'posts',
+    'referral',
+    'polls',
+    'tickets',
+    'eca_catalogue',
+    'forums',
+    'skrill',
+    'singleactiveobject',
+    'coupons',
+    'versioncheck',
+    'multiselectfield',
+    'filemanager',
+    'newsletters',
 )
 
 INSTALLED_APPS = (
