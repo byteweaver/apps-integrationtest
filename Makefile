@@ -12,7 +12,7 @@ virtualenv:
 	test -x $(PYTHON_BINARY) || $(VIRTUALENV_BINARY) --python $(VIRTUALENV_PYTHON_BINARY) .
 
 requirements: virtualenv
-	$(PIP_BINARY) install -r requirements.txt
+	$(PIP_BINARY) install --upgrade -r requirements.txt
 
 clean:
 	rm -rf lib include bin share local
