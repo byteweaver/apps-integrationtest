@@ -36,7 +36,7 @@ BYTEWEAVER_APPS = (
     'tickets',
     'eca_catalogue',
     'forums',
-    'skrill',
+    #'skrill',
     'singleactiveobject',
     'coupons',
     'versioncheck',
