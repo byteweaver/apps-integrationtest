@@ -26,5 +26,6 @@ urlpatterns = [
     url(r'^tickets/', include('tickets.urls', namespace='tickets')),
     url(r'^forums/', include('forums.urls', namespace='forums')),
     url(r'^filemanager/', include('filemanager.urls', namespace='filemanager')),
+    url(r'^versioncheck/', include('versioncheck.urls', namespace='versioncheck')),
     url(r'^$', TemplateView.as_view(template_name='home.html')),
 ]
